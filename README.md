@@ -1,7 +1,7 @@
 # hand-written-digits-with-CNNs
 I used convolutional neural networks to predict the digit written in the image. I am getting started with computer vision and this was my first task after learning basics of computer vision and CNNs. 
 Following architecture was used by me in this model
-1. an Input layer of (m*28*28*1) dimensions
+1. an Input layer of (m * 28 * 28 * 1) dimensions
 2. a convolutional layer 1 with 3x3, 12 filters on the input images
 3. Convolutional layer 2 with 5x5, 10 filters on the input from first layer
 4. Flattening output of the conv2 layer for an output layer
